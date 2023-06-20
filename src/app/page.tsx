@@ -1,5 +1,9 @@
-import Image from "next/image";
+import Hello from "@/components/Hello";
 
 export default function Home() {
-  return <section className="bg-gray-500">Main</section>;
+  return (
+    <>
+      <Hello />
+    </>
+  );
 }
