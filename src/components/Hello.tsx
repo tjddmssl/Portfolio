@@ -16,7 +16,7 @@ export default function Hello() {
         height={250}
         priority
       />
-      <h2 className="text-xl font-semibold">Frontend Engineer 이성은입니다.</h2>
+      <h2 className="text-xl font-semibold">Frontend Engineer 이성은입니다</h2>
       <p>
         사용자 편의성과 접근성에 대해 생각하고, 함께 일하는 개발 환경을 위해
         항상 노력합니다.
