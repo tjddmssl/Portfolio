@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Portfolio",
+    "description": "Stack Overflow 클론 코딩",
+    "role": "3FE, 3BE / FE 팀원",
+    "date": "2023.01.13 ~ 2023.02.02",
+    "category": "frontend",
+    "path": "",
+    "featured": true
+  },
+  {
+    "title": "우리 동네 약국 지도",
+    "description": "지도 기반으로 약국의 검색과 일반 회원들, 약사 회원들 사이에 커뮤니케이션이 가능한 반응형 웹앱",
+    "role": "3FE, 3BE / FE 팀원",
+    "date": "2023.03.03 ~ 2023.04.30",
+    "category": "project",
+    "path": "dongne-pharm",
+    "featured": true,
+    "stacks": [
+      "React",
+      "Typescript",
+      "ReduxToolkit",
+      "Axios",
+      "Styled-component",
+      "GitHub",
+      "AWS",
+      "Figma",
+      "ReactVite"
+    ]
+  },
+  {
+    "title": "STACK OVERFLOW",
+    "description": "Stack Overflow 클론 코딩",
+    "role": "3FE, 3BE / FE 팀원",
+    "date": "2023.02.13 ~ 2023.03.02",
+    "category": "frontend",
+    "path": "stackoverflow_project",
+    "featured": true
+  },
+  {
+    "title": "YoutubeProject",
+    "description": "",
+    "role": "Solo Project",
+    "date": "2023-04-10",
+    "path": "youtube_project",
+    "featured": true
+  },
+  {
+    "title": "TodoList",
+    "description": "",
+    "role": "Solo Project",
+    "path": "todolist_project",
+    "featured": true
+  }
+]
