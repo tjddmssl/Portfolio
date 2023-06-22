@@ -1,13 +1,15 @@
 import React from "react";
 import PostsGrid from "./PostsGrid";
+import { getAllContents } from "@/service/contents";
 
-export default function FeaturedPosts() {
-  //1. 모든 포스트 데이터들을 읽어와야함
-  //2. 모든 포스트 데이터들을 보여줌
+export default async function FeaturedPosts() {
+  //데이터 불러옴
+  const contents = await getAllContents();
   return (
     <section>
       <h2>My projects</h2>
-      <PostsGrid />
+      {/* 데이터 보여줌 */}
+      <PostsGrid contents={contents} />
     </section>
   );
 }

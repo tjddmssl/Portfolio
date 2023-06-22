@@ -9,6 +9,7 @@ export default function Header() {
           <h1 className="text-2xl font-bold text-pink-500 ml-4">
             {"SungEun's Portfolio"}
           </h1>
+          {/* 반응형은 나중에 수정할 예정 */}
           <LuFlower2 className="text-3xl text-pink-500 max-sm:hidden" />
         </div>
       </Link>
