@@ -1,10 +1,14 @@
-import React from 'react';
+import { Post } from "@/service/contents";
+import React from "react";
 
-export default function PostsGrid() {
+type Props = { contents: Post[] };
+//구조분해할당
+export default function PostsGrid({ contents }: Props) {
   return (
-    <div>
-      
-    </div>
+    <ul>
+      {contents.map((content) => (
+        <li key={content.path}>{content.title}</li>
+      ))}
+    </ul>
   );
 }
-
