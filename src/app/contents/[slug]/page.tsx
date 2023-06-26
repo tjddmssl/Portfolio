@@ -1,5 +1,9 @@
-import React from "react";
+type Props = {
+  params: {
+    slug: string;
+  };
+};
 
-export default function ContentsPage() {
+export default function ContentsPage({ params: { slug } }: Props) {
   return <div></div>;
 }
