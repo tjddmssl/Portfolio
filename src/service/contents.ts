@@ -13,5 +13,5 @@ export type Post = {
 
 export async function getAllContents(): Promise<Post[]> {
   const filePath = path.join(process.cwd(), "data", "contents.json");
-  return readFile(filePath, "utf-8").then<Post[]>(JSON.parse);
+  return await readFile(filePath, "utf-8").then<Post[]>(JSON.parse);
 }
