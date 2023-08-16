@@ -12,5 +12,5 @@ module.exports = {
       md: { max: "640px" },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
