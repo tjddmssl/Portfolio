@@ -1,0 +1,76 @@
+[
+  {
+    "title": "Portfolio",
+    "description": "Next.js를 배우면서 만든 나의 Portfolio 만들기 ",
+    "role": "Solo Project",
+    "date": "2023.06.16 ~ 2023.07.03",
+    "path": "portfolio",
+    "stacks": ["Next.js", "Typescript", "Tailwind", "GitHub", "Vercel", "Figma"]
+  },
+  {
+    "title": "우리 동네 약국 지도",
+    "description": "지도 기반으로 약국 검색과 일반 회원들, 약사 회원들 사이에 커뮤니케이션이 가능한 반응형 웹앱",
+    "role": "3FE, 3BE / FE 팀원",
+    "date": "2023.03.03 ~ 2023.04.30",
+    "path": "dongne-pharm",
+    "stacks": [
+      "React",
+      "Typescript",
+      "ReduxToolkit",
+      "Axios",
+      "Styled-component",
+      "GitHub",
+      "AWS",
+      "Figma",
+      "ReactVite"
+    ]
+  },
+  {
+    "title": "STACK OVERFLOW",
+    "description": "CRUD가 가능한 Stack Overflow 클론 코딩 ",
+    "role": "3FE, 3BE / FE 팀원",
+    "date": "2023.02.13 ~ 2023.03.02",
+    "path": "stackoverflow",
+    "stacks": [
+      "React",
+      "Typescript",
+      "ReduxToolkit",
+      "Axios",
+      "Styled-component",
+      "GitHub",
+      "AWS",
+      "Figma"
+    ]
+  },
+  {
+    "title": "YoutubeProject",
+    "description": "open API를 활용한 나만의 youtube 만들기",
+    "role": "Solo Project",
+    "date": "2023.04.15 ~ 2023.06.11",
+    "path": "youtubeproject",
+    "stacks": [
+      "React",
+      "Javascript",
+      "Tailwind Css",
+      "React-Query",
+      "GitHub",
+      "Vercel",
+      "Figma"
+    ]
+  },
+  {
+    "title": "TodoList",
+    "description": "편리한 UI로 CRUD가 가능하고, 완료한 일과 아직 완료하지 못한 일을 나눠서 관리 할수 있는 간단한 TodoList ",
+    "role": "Solo Project",
+    "date": "2023.01.13 ~ 2023.02.09 ",
+    "path": "todolist",
+    "stacks": [
+      "React",
+      "Javascript",
+      "Styled-component",
+      "PostCss",
+      "GitHub",
+      "Figma"
+    ]
+  }
+]
