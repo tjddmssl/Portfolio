@@ -10,9 +10,9 @@ type Props = {
 export default async function ContentsPage({ params: { slug } }: Props) {
   const post = await getPostData(slug);
   return (
-    <>
+    <article>
       <div>{post.title}</div>
       <MarkdownViewer content={post.content} />
-    </>
+    </article>
   );
 }
