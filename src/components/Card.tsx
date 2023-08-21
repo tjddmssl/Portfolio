@@ -8,7 +8,7 @@ export default function Card({
   content: { title, role, date, stacks, path, description },
 }: Props) {
   return (
-    <article className="shadow-lg bg-pink-100 rounded-2xl m-2 pt-7">
+    <article className="shadow-lg bg-pink-100 rounded-2xl m-1 p-2 h-full">
       <Link href={`/contents/${path}`}>
         <Image
           className="h-80 rounded-2xl items-center m-auto p-1.5"
@@ -30,13 +30,14 @@ export default function Card({
           <h3 className="text-2xl font-bold my-3 items-center mx-auto ">
             {title}
           </h3>
-          <span className=" break-keep text-center mb-2">{description}</span>
-          <section className=" break-keep items-center justify-center ">
+          <span className=" break-keep text-center mb-3">{description}</span>
+          <section className="w-full items-center justify-center break-all ">
             {stacks &&
               stacks.map((el, index) => (
                 <span
                   key={index}
-                  className="text-xs m-1 bg-gray-300 rounded-md  text-red-600 p-0.5 break-all"
+                  className="text-xs m-1 bg-gray-300 rounded-md  text-red-600 p-0.5 
+                  "
                 >
                   {`${el}`}
                 </span>
