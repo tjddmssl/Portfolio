@@ -1,5 +1,11 @@
 import Hello from "@/components/Hello";
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "About My Skills",
+  description: "이성은 스킬 소개",
+};
 
 const LI_CLASS = "text-lg text-pink-500";
 const HEADER_CLASS = "text-xl font-bold";
