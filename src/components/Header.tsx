@@ -14,7 +14,7 @@ export default function Header() {
       </Link>
       <nav className="flex gap-4 mt-5 font-bold text-pink-500 text-lg p-3 mr-4">
         <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
+        <Link href="/skills">Skills</Link>
         <Link href="/assets/resume.pdf" target="_blank">
           Resume
         </Link>

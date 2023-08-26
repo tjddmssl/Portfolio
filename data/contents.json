@@ -5,7 +5,14 @@
     "role": "Solo Project",
     "date": "2023.06.16 ~ 2023.07.03",
     "path": "portfolio",
-    "stacks": ["Next.js", "Typescript", "Tailwind", "GitHub", "Vercel", "Figma"]
+    "stacks": [
+      "Next.js",
+      "TypeScript",
+      "tailwindcss",
+      "GitHub",
+      "Vercel",
+      "Figma"
+    ]
   },
   {
     "title": "우리 동네 약국 지도",
@@ -14,15 +21,14 @@
     "date": "2023.03.03 ~ 2023.04.30",
     "path": "dongne-pharm",
     "stacks": [
-      "React",
-      "Typescript",
-      "ReduxToolkit",
-      "Axios",
-      "Styled-component",
+      "react",
+      "TypeScript",
+      "react-vite",
+      "redux-toolkit",
+      "styled-component",
       "GitHub",
       "AWS",
-      "Figma",
-      "ReactVite"
+      "Figma"
     ]
   },
   {
@@ -32,11 +38,10 @@
     "date": "2023.02.13 ~ 2023.03.02",
     "path": "stackoverflow",
     "stacks": [
-      "React",
-      "Typescript",
-      "ReduxToolkit",
-      "Axios",
-      "Styled-component",
+      "react",
+      "TypeScript",
+      "redux-toolkit",
+      "styled-component",
       "GitHub",
       "AWS",
       "Figma"
@@ -49,10 +54,10 @@
     "date": "2023.04.15 ~ 2023.06.11",
     "path": "youtubeproject",
     "stacks": [
-      "React",
-      "Javascript",
-      "Tailwind Css",
-      "React-Query",
+      "react",
+      "JavaScript",
+      "tailwindcss",
+      "react-query",
       "GitHub",
       "Vercel",
       "Figma"
@@ -65,10 +70,10 @@
     "date": "2023.01.13 ~ 2023.02.09 ",
     "path": "todolist",
     "stacks": [
-      "React",
-      "Javascript",
-      "Styled-component",
-      "PostCss",
+      "react",
+      "JavaScript",
+      "styled-component",
+      "postcss",
       "GitHub",
       "Figma"
     ]
